@@ -8,6 +8,7 @@ import "react-native-reanimated";
 import "../../global.css";
 
 import { Stack } from "expo-router";
+import { StatusBar } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { useColorScheme } from "../hooks/useColorScheme";
 
@@ -25,6 +26,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <GestureHandlerRootView style={{ flex: 1 }}>
+        <StatusBar />
         <Stack>
           <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
 

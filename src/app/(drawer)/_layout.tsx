@@ -11,7 +11,11 @@ export default function DrawerLayout() {
       <Drawer.Screen name="(tabs)" options={{ title: "Home" }} />
       <Drawer.Screen
         name="gallery/index"
-        options={{ title: "Gallery", headerShown: false }}
+        options={{
+          title: "Gallery",
+          headerShown: true,
+          headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
+        }}
       />
     </Drawer>
   );
