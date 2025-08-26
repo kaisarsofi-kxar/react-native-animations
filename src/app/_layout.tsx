@@ -34,6 +34,10 @@ export default function RootLayout() {
             name="gallery-modal/index"
             options={{ headerShown: false, presentation: "modal" }}
           />
+          <Stack.Screen
+            name="notifications/index"
+            options={{ headerShown: false }}
+          />
         </Stack>
       </GestureHandlerRootView>
     </ThemeProvider>
