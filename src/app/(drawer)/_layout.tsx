@@ -39,6 +39,14 @@ export default function DrawerLayout() {
           headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         }}
       />
+      <Drawer.Screen
+        name="haptics/index"
+        options={{
+          title: "Haptics",
+          headerShown: true,
+          headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
+        }}
+      />
     </Drawer>
   );
 }
