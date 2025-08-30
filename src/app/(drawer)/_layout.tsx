@@ -31,6 +31,14 @@ export default function DrawerLayout() {
           headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
         }}
       />
+      <Drawer.Screen
+        name="checkbox-interactions/index"
+        options={{
+          title: "Checkbox",
+          headerShown: true,
+          headerTitleStyle: { fontSize: 20, fontWeight: "bold" },
+        }}
+      />
     </Drawer>
   );
 }

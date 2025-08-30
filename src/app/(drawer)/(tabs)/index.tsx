@@ -26,7 +26,7 @@ const features: Feature[] = [
     description: "Pan, fling, long-press with smooth feedback.",
     icon: "hand-left-outline",
     color: "#ea580c",
-    route: "/",
+    route: "/checkbox-interactions",
   },
   {
     title: "Parallax",
