@@ -15,4 +15,4 @@ const generateUsers = (count: number) =>
     };
   });
 
-export const NOTIFICATIONS = generateUsers(30);
+export const NOTIFICATIONS = generateUsers(40);
